@@ -8,10 +8,12 @@
         <option value="$PROJECT_DIR$/register-eureka-servers/pom.xml" />
         <option value="$PROJECT_DIR$/note-book-servers/pom.xml" />
         <option value="$PROJECT_DIR$/note-zuul-servers/pom.xml" />
+        <option value="$PROJECT_DIR$/note-h5-servers/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/note-admin-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/note-api-gateway/pom.xml" />
       </set>
     </option>

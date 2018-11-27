@@ -25,3 +25,15 @@
 2018-11-27 12:16:01 171884 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==>  Preparing: SELECT * FROM `user_mst` WHERE 1 = 1 and `user_id`=? 
 2018-11-27 12:16:01 171884 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==> Parameters: 1(Integer)
 2018-11-27 12:16:01 171903 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findInfo - <==      Total: 1
+2018-11-27 14:14:51 527702 [http-nio-8999-exec-2] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==>  Preparing: SELECT * FROM `user_mst` WHERE 1 = 1 and `user_phone`=? 
+2018-11-27 14:14:51 527720 [http-nio-8999-exec-2] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==> Parameters: 18258177670(String)
+2018-11-27 14:14:51 527749 [http-nio-8999-exec-2] DEBUG c.b.n.mapper.UserMstMapper.findInfo - <==      Total: 1
+2018-11-27 14:14:51 527750 [http-nio-8999-exec-1] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==>  Preparing: SELECT * FROM `user_mst` WHERE 1 = 1 and `user_phone`=? 
+2018-11-27 14:14:51 527751 [http-nio-8999-exec-1] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==> Parameters: 18258177670(String)
+2018-11-27 14:14:51 527768 [http-nio-8999-exec-1] DEBUG c.b.n.mapper.UserMstMapper.findInfo - <==      Total: 1
+2018-11-27 14:14:51 527832 [http-nio-8999-exec-3] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==>  Preparing: SELECT * FROM `user_mst` WHERE 1 = 1 and `user_id`=? 
+2018-11-27 14:14:51 527832 [http-nio-8999-exec-3] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==> Parameters: 1(Integer)
+2018-11-27 14:14:51 527848 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==>  Preparing: SELECT * FROM `user_mst` WHERE 1 = 1 and `user_id`=? 
+2018-11-27 14:14:51 527849 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findInfo - ==> Parameters: 1(Integer)
+2018-11-27 14:14:51 527851 [http-nio-8999-exec-3] DEBUG c.b.n.mapper.UserMstMapper.findInfo - <==      Total: 1
+2018-11-27 14:14:51 527885 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findInfo - <==      Total: 1

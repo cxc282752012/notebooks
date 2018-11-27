@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/note-base-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/note-book-servers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/note-gateway-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/note-h5-servers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/note-system-servers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/note-zuul-servers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/register-eureka-servers" charset="UTF-8" />

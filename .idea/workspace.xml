@@ -2,8 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7924cae-95ca-483f-8fdc-7a3666d4fac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access_warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access_warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access.log.2018-10-29.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access_debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access_error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access_info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access_info.log.2018-10-29.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access_warn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/logs/note-admin-ribbon/access_warn.log.2018-10-29.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/NoteAdminRibbonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/book/BookMstAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/service/book/BookMstAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/system/UserMstAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/service/system/UserMstAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/FileUploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/ImagePrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/ImagePrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/PrinterServiceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/PrinterServiceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/RowUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/RowUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/UrlCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/UrlCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/WebUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/WebUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/aboutUs.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/aboutUs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/account.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/account.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/addAddress.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/addAddress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/cartProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/cartProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/category.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/category.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/categoryList.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/categoryList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/categoryProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/categoryProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/changePassword.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/changePassword.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/couponsChoose.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/couponsChoose.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/customerFavourite.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/customerFavourite.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/customerMessage.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/customerMessage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/customerSelectRefund.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/customerSelectRefund.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/customerSelectReturn.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/customerSelectReturn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/getCoupon.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/getCoupon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/groupBuyItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/groupBuyItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/groupBuyList.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/groupBuyList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/groupBuyOder.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/groupBuyOder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/groupBuyOrderDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/groupBuyOrderDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/groupProductDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/groupProductDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/groupRule.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/groupRule.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/homeList.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/homeList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/logistics.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/logistics.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/mescroll.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/mescroll.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/myAddress.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/myAddress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/myCouponList.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/myCouponList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/myGroupBuy.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/myGroupBuy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/myOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/myOrder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/myProfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/myProfile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/orderRefundList.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/orderRefundList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/orderRefundProcess.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/orderRefundProcess.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/orderRefundViewDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/orderRefundViewDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/orderReturnFill.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/orderReturnFill.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/orderReturnInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/orderReturnInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/orderReturnProcess.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/orderReturnProcess.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/paymentStatus.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/paymentStatus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/productDetails2.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/productDetails2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/productOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/productOrder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/setting.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/setting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/shareNewCustomer.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/shareNewCustomer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/shareNewCustomerDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/shareNewCustomerDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/sign-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/sign-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/simpleTips_wap.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/simpleTips_wap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/css/swiper-3.4.2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/swiper-3.4.2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/Inertia.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/Inertia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/jquert-touchmove.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/jquert-touchmove.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/jquery.mobile-1.3.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/jquery.mobile-1.3.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/mescroll-option.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/mescroll-option.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/mescroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/mescroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/analytics.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/analytics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/fastclick.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/fastclick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/firebase-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/firebase-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/firebase-database.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/firebase-database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/homeBack.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/homeBack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/jquery.waterfall.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/jquery.waterfall.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/public/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/simpleTips_wap.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/simpleTips_wap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/swiper-3.4.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/swiper-3.4.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/zepto.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/static/js/zepto.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/templates/user/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/note-h5-servers/src/main/resources/templates/user/regist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-admin-ribbon/src/test/java/com/books/noteadminribbon/NoteAdminRibbonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-base-core/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/note-base-core/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-book-servers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/note-book-servers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-gateway-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/note-gateway-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-system-servers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/note-system-servers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note-zuul-servers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/note-zuul-servers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register-eureka-servers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/register-eureka-servers/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/register-eureka-servers/target/" />
@@ -15,6 +134,7 @@
     <ignored path="$PROJECT_DIR$/note-gateway-api/target/" />
     <ignored path="$PROJECT_DIR$/note-admin-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/note-zuul-servers/target/" />
+    <ignored path="$PROJECT_DIR$/note-h5-servers/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,54 +206,58 @@
         <counts>
           <entry key="1-SNAPSHOT" value="1" />
           <entry key="class" value="18" />
-          <entry key="css" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="6" />
-          <entry key="java" value="173" />
+          <entry key="css" value="2" />
+          <entry key="gitignore" value="12" />
+          <entry key="html" value="7" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="192" />
           <entry key="js" value="5" />
           <entry key="log" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="45" />
-          <entry key="xml" value="61" />
+          <entry key="properties" value="54" />
+          <entry key="xml" value="73" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="18" />
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="6" />
-          <entry key="JAVA" value="173" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="7" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="192" />
           <entry key="JavaScript" value="5" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="45" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Properties" value="54" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="62" />
+          <entry key="XML" value="74" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="gitignore" value="29" />
+          <entry key="gitignore" value="56" />
           <entry key="html" value="74" />
-          <entry key="java" value="1163" />
+          <entry key="java" value="1166" />
           <entry key="js" value="203" />
-          <entry key="properties" value="159" />
-          <entry key="xml" value="107" />
+          <entry key="md" value="6" />
+          <entry key="properties" value="179" />
+          <entry key="xml" value="125" />
           <entry key="yml" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="74" />
-          <entry key="JAVA" value="1163" />
+          <entry key="JAVA" value="1166" />
           <entry key="JavaScript" value="203" />
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Properties" value="159" />
-          <entry key="XML" value="107" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Properties" value="179" />
+          <entry key="XML" value="125" />
           <entry key="YAML" value="122" />
         </counts>
       </usages-collector>
@@ -145,49 +269,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note-system-servers/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/register-eureka-servers/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -231,20 +325,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/service/book/IBookMstService.java" />
-        <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/service/system/UserMstService.java" />
-        <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/hystric/system/UserMstServiceHystrix.java" />
-        <option value="$PROJECT_DIR$/note-gateway-api/src/test/java/com/books/notegatewayapi/NoteGatewayApiApplicationTests.java" />
-        <option value="$PROJECT_DIR$/note-system-servers/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/note-system-servers/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/note-gateway-api/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/note-book-servers/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/controller/BookMstController.java" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/NoteAdminRibbonApplication.java" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/book/IBookMstService.java" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/system/IUserMstService.java" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/system/IUserMstAPI.java" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/book/BookMstAPI.java" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/test/java/com/books/noteadminribbon/NoteAdminRibbonApplicationTests.java" />
         <option value="$PROJECT_DIR$/note-base-core/src/main/java/com/books/notebasecore/util/ImprovedDateTypeAdapter.java" />
@@ -256,7 +336,6 @@
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/common.js" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/utils/message/MessageGrouponUtil.java" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/RowUtil.java" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/FileUploadUtils.java" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/utils/PriceRedisUtil.java" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/resources/application.properties" />
@@ -267,10 +346,8 @@
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/utils/SessionRedisUtil.java" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/controller/UserMstController.java" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/WebUtil.java" />
-        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/home/home.js" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/controller/user/UserController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/note-zuul-servers/src/main/java/com/books/notezuulservers/NoteZuulServersApplication.java" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/system/UserMstAPI.java" />
         <option value="$PROJECT_DIR$/note-zuul-servers/src/main/java/com/books/notezuulservers/fallback/UserServiceFallbackProvider.java" />
@@ -282,6 +359,23 @@
         <option value="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/note-admin-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/note-h5-servers/pom.xml" />
+        <option value="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/PrinterServiceUtil.java" />
+        <option value="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/NoteH5ServersApplication.java" />
+        <option value="$PROJECT_DIR$/note-h5-servers/.gitignore" />
+        <option value="$PROJECT_DIR$/note-book-servers/.gitignore" />
+        <option value="$PROJECT_DIR$/note-gateway-api/.gitignore" />
+        <option value="$PROJECT_DIR$/note-h5-servers/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/note-h5-servers/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/note-base-core/.gitignore" />
+        <option value="$PROJECT_DIR$/note-system-servers/.gitignore" />
+        <option value="$PROJECT_DIR$/note-zuul-servers/.gitignore" />
+        <option value="$PROJECT_DIR$/register-eureka-servers/.gitignore" />
       </list>
     </option>
   </component>
@@ -338,7 +432,12 @@
             <path>
               <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-admin-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="note-base-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="register-eureka-servers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,7 +453,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543208249757" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543299392923" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -374,11 +473,11 @@
       <recent name="com.books.notebookservers.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/note-h5-servers/src/main/resources" />
+      <recent name="$PROJECT_DIR$/note-h5-servers/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/note-h5-servers/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/note-zuul-servers/src/main/java/com/books/notezuulservers" />
-      <recent name="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon" />
-      <recent name="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi" />
-      <recent name="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -401,7 +500,7 @@
   </component>
   <component name="RunManager" selected="Spring Boot.RegisterEurekaServersApplication">
     <configuration name="NoteAdminRibbonApplicationTests.userFindList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="note-admin-ribbon" />
+      <module name="note-H5-servers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.books.noteadminribbon.*" />
@@ -465,7 +564,7 @@
       </method>
     </configuration>
     <configuration name="NoteAdminRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="note-admin-ribbon" />
+      <module name="note-H5-servers" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.books.noteadminribbon.NoteAdminRibbonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -481,6 +580,13 @@
     <configuration name="NoteGatewayApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="note-gateway-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.books.notegatewayapi.NoteGatewayApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoteH5ServersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="note-h5-servers" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.books.noteh5servers.NoteH5ServersApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -517,6 +623,7 @@
       <item itemvalue="JUnit.NoteApiGatewayApplicationTests.userFindList" />
       <item itemvalue="JUnit.NoteGatewayApiApplicationTests.userFindList" />
       <item itemvalue="JUnit.NoteAdminRibbonApplicationTests.userFindList" />
+      <item itemvalue="Spring Boot.NoteH5ServersApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -549,7 +656,7 @@
       <workItem from="1542683274386" duration="4954000" />
       <workItem from="1543198223232" duration="5277000" />
       <workItem from="1543225148463" duration="148000" />
-      <workItem from="1543290153414" duration="1814000" />
+      <workItem from="1543290153414" duration="4063000" />
     </task>
     <servers />
   </component>
@@ -586,7 +693,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87796000" />
+    <option name="totallyTimeSpent" value="90045000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,199 +775,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/test/java/com/books/notegatewayapi/NoteGatewayApiApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/session/SessionRepositoryFilterConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/config/SessionConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/controller/BookMstController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/utils/SessionRedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/NoteAdminRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/ProductUploadUtil.java" />
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/public/analytics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4201">
-          <caret line="13180" column="21" selection-start-line="13180" selection-start-column="21" selection-end-line="13180" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-base-core/src/main/java/com/books/notebasecore/util/BaseWebUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="185" column="30" lean-forward="true" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/utils/WebUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/static/js/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/templates/user/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/controller/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-system-servers/src/main/java/com/books/notesystemservers/NoteSystemServersApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/NoteGatewayApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-zuul-servers/src/main/java/com/books/notezuulservers/NoteZuulServersApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/java/com/books/notebookservers/controller/BookMstController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/service/system/UserMstAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/hystric/system/UserMstServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.1.0.M2/spring-cloud-netflix-zuul-2.1.0.M2.jar!/org/springframework/cloud/netflix/zuul/filters/route/FallbackProvider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1168,10 +1082,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note-system-servers/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1182,27 +1103,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/note-system-servers/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="336">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/note-admin-ribbon.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/UrlCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/ImagePrint.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/FileUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/WebUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/RowUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/PrinterServiceUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/resources/templates/user/regist.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1452">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon/NoteAdminRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/NoteH5ServersApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="59" column="68" lean-forward="true" selection-start-line="59" selection-start-column="68" selection-end-line="59" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678">
+          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/service/system/UserMstAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/service/book/BookMstAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-admin-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-book-servers/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-base-core/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-gateway-api/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-system-servers/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-zuul-servers/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-eureka-servers/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>

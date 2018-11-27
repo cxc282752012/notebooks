@@ -23,7 +23,7 @@
         <module>note-book-servers</module>
         <module>note-base-core</module>
         <module>note-gateway-api</module>
-        <module>note-admin-ribbon</module>
         <module>note-zuul-servers</module>
+        <module>note-h5-servers</module>
     </modules>
 </project>

@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7924cae-95ca-483f-8fdc-7a3666d4fac4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-admin-ribbon/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-admin-ribbon/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-admin-ribbon/access_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-admin-ribbon/access_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-admin-ribbon/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-admin-ribbon/access_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-admin-ribbon/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-admin-ribbon/access_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-book-servers/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-book-servers/access_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-gateway-api/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-gateway-api/access_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/register-eureka-servers/target/" />
@@ -104,10 +87,12 @@
           <entry key="1-SNAPSHOT" value="1" />
           <entry key="class" value="18" />
           <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="6" />
           <entry key="java" value="173" />
           <entry key="js" value="5" />
           <entry key="log" value="2" />
+          <entry key="md" value="1" />
           <entry key="pom" value="1" />
           <entry key="properties" value="45" />
           <entry key="xml" value="61" />
@@ -121,7 +106,8 @@
           <entry key="HTML" value="6" />
           <entry key="JAVA" value="173" />
           <entry key="JavaScript" value="5" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="45" />
           <entry key="UML" value="1" />
           <entry key="XML" value="62" />
@@ -131,6 +117,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
+          <entry key="gitignore" value="29" />
           <entry key="html" value="74" />
           <entry key="java" value="1163" />
           <entry key="js" value="203" />
@@ -144,7 +131,7 @@
           <entry key="HTML" value="74" />
           <entry key="JAVA" value="1163" />
           <entry key="JavaScript" value="203" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="38" />
           <entry key="Properties" value="159" />
           <entry key="XML" value="107" />
           <entry key="YAML" value="122" />
@@ -175,11 +162,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -223,7 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/hystric/book/BookMstServiceHystrix.java" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/service/book/IBookMstService.java" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/service/system/UserMstService.java" />
         <option value="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/hystric/system/UserMstServiceHystrix.java" />
@@ -274,6 +281,7 @@
         <option value="$PROJECT_DIR$/note-system-servers/pom.xml" />
         <option value="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -330,62 +338,7 @@
             <path>
               <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-book-servers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-book-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-book-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-book-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-book-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-system-servers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-system-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-system-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="note-system-servers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="note-admin-ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,12 +363,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/note-zuul-servers/src/main/java/com/books/notezuulservers" />
-      <recent name="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon" />
-      <recent name="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi" />
-      <recent name="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/config" />
-      <recent name="$PROJECT_DIR$/note-admin-ribbon/src/main/resources/templates/user" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/note-system-servers/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.books.noteadminribbon.controller.user" />
@@ -424,8 +373,12 @@
       <recent name="com.books.noteapigateway.service.book" />
       <recent name="com.books.notebookservers.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/note-system-servers/src/main/resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/note-zuul-servers/src/main/java/com/books/notezuulservers" />
+      <recent name="$PROJECT_DIR$/note-admin-ribbon/src/main/java/com/books/noteadminribbon" />
+      <recent name="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi" />
+      <recent name="$PROJECT_DIR$/note-gateway-api/src/main/java/com/books/notegatewayapi/config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,7 +549,7 @@
       <workItem from="1542683274386" duration="4954000" />
       <workItem from="1543198223232" duration="5277000" />
       <workItem from="1543225148463" duration="148000" />
-      <workItem from="1543290153414" duration="904000" />
+      <workItem from="1543290153414" duration="1814000" />
     </task>
     <servers />
   </component>
@@ -633,7 +586,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86886000" />
+    <option name="totallyTimeSpent" value="87796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,8 +599,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49638554" visible="true" weight="0.28826895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49638554" visible="true" weight="0.28826895" />
       <window_info id="Structure" order="1" sideWeight="0.5036145" side_tool="true" weight="0.2811159" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -669,7 +623,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.49518073" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.49518073" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -714,20 +668,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.10.RELEASE/spring-beans-5.0.10.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.10.RELEASE/spring-core-5.0.10.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="122" column="44" lean-forward="true" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.11.RELEASE/spring-data-redis-2.0.11.RELEASE.jar!/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1244,8 +1184,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>

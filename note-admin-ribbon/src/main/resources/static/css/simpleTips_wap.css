@@ -1,0 +1,157 @@
+.tipsMask{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    background-color:rgba(0,0,0,0.5); 
+    z-index: 10000;
+}
+.tips_content{
+    position: fixed;
+    width: 8rem;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: -4rem;
+    left: 50%;
+    
+    top: 40%;
+    margin-top: -2.5rem;
+}
+.tipsMaskText{
+    font-size: .5rem;
+    color: #333;
+    text-align: center;
+    padding: 1.4rem 0.6rem;
+    word-wrap:break-word ;
+}
+.ButtonTwo{
+    font-size: .46rem;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+    background: #f79151;
+    width: 100%;
+    height: 1.22rem;
+    line-height: 1.22rem;
+    text-align: center
+}
+.tipsYes{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: .46rem;
+    color: #fff;
+    background: -webkit-linear-gradient(left,#fb8f00, #fe5a00);
+    background: -o-linear-gradient(left,#fb8f00, #fe5a00);
+    background: -moz-linear-gradient(left,#fb8f00, #fe5a00);
+    background: linear-gradient(left,#fb8f00, #fe5a00);
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    border: 0;
+}
+.ovfHiden{
+    overflow: hidden;
+}
+
+.tipsMaskSecond{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    background-color:rgba(0,0,0,0.5); 
+    z-index: 99999
+}
+.tips_contentSecond{
+    position: fixed;
+    width: 8rem;
+    background: #fff;
+    border-radius: 5px;
+    margin-left: -4rem;
+    left: 50%;
+    
+    top: 40%;
+    margin-top: -2.5rem;
+}
+.tipsMaskTextSecond{
+    font-size: .5rem;
+    color: #333;
+    text-align: center;
+    padding: 1.4rem 0.6rem;
+    word-wrap:break-word ;
+}
+.ButtonTwoSecond{
+    font-size: .46rem;
+    color: #fff;
+    background: #f79151;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+}
+.tipsYesSecond{
+    font-size: .4rem;
+    color: #fff;
+    width: 50%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    float: left;
+    background: #f79151;
+    border-bottom-right-radius: 5px;
+}
+.tipsNoSecond{
+    font-size: .4rem;
+    color: #333;
+    width: 50%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background: white;
+    float: left;
+    border-bottom-left-radius: 5px;
+}
+.ovfHiden{
+    overflow: hidden;
+}
+
+.headerBox{
+    width: 100%;
+    height: 1.2rem;
+}
+.headerTitle{
+	z-index:10000;
+    background: #fff;
+    width: 100%;
+    height: 1.2rem;
+    position: fixed;
+    top: 0;
+    border-bottom:1px solid #f0f0f0 
+}
+.headerTitle img{
+    position: absolute;
+    width: .25rem;
+    height: .44rem;
+    top: .4rem;
+    left: .26rem;
+}
+.backIcon{
+    display: block;
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    top: 0rem;
+    left: 0rem;
+}
+.headerTitle .headerTitleTxt{
+    line-height: 1.2rem;
+    color: #333;
+    text-align: center;
+    font-size: .46rem;
+    width: 8rem;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

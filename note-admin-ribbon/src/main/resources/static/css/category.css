@@ -1,0 +1,275 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+.banner {
+    width: 100%;
+    overflow-y: auto;
+    position: fixed;
+    top: 1.5rem;
+    bottom: 1.45rem;
+}
+
+#amazingProductListData{
+	overflow: hidden;
+    margin-top: 0.5rem;
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.tabBar{
+    height: 1.45rem;
+    width: 100%;
+    background: #f8f8f8;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.tabBar ul{
+    display: flex;
+    padding-top: 0.16rem;
+}
+.tabBar ul li{
+    flex: 1;
+}
+.tabBar ul li img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.tabBar ul li p{
+    color: #565656;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.tabBar ul li:nth-of-type(2) p{
+	color: #ff8e45;
+}
+.cartNum {
+   position: absolute;
+    width: 0.48rem;
+    height: 0.48rem;
+    border-radius: 50%;
+    top: 5px;
+    left: 6.8rem;
+    background-color: #fb9000;
+    color: #FFFFFF;
+    font-size: .35rem;
+    text-align: center;
+    line-height: .5rem;
+    display: none;
+}
+.groupMain{
+    overflow: hidden;
+    padding: 0.25rem;
+}
+.group-firstImg{
+    display: block;
+    float: left;
+    width: 5rem;
+    height: 2.5rem;
+}
+.group-secondImg{
+    display: block;
+    float: right;
+    width: 5rem;
+    height: 2.5rem;
+}
+.ButtonPersonal{
+    width: 0.59rem;
+    height: 0.67rem;
+}
+.ButtonShopping{
+    width: 0.74rem;
+    height: 0.67rem;
+}
+.ButtonGroup{
+    width: 0.78rem;
+    height: 0.68rem;
+}
+.ButtonFirst{
+    width: 0.68rem;
+    height: 0.68rem;
+}
+.searchBox{
+    width: 9rem;
+    height: 0.81rem;
+    background: #f0f0f0;
+    border-radius: 20px;
+    float: left;
+}
+.searchImg{
+    width: 0.35rem;
+    height: 0.35rem;
+    float: left;
+    display: block;
+    margin-top: 0.22rem;
+    margin-left: 0.3rem;
+}
+.searchBox p{
+    font-size: 0.4rem;
+    line-height: 0.81rem;
+    color: #969696;
+    float: left;
+    margin-left: 0.3rem;
+}
+.categoryTop{
+    width: 10.18rem;
+    height: 0.81rem;
+    margin: 0 auto;
+    margin-top: 0.35rem;
+    overflow: hidden
+}
+.categoryImg{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: right;
+    padding-right: 0.45rem;
+    padding-top: 0.16rem;
+}
+#div1 {
+    margin: auto;
+    position: relative;
+    top: 0.35rem;
+  }
+    
+  .box {
+    float: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 0 8px #ccc;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+  }
+    
+  .box:hover { box-shadow: 0 0 0.1rem #999; }
+    
+  .box img { width: 4.2rem }
+.searchInput{
+    font-size: 0.4rem;
+    line-height: 0.81rem;
+    color: #969696;
+    float: left;
+    margin-left: 0.3rem;
+    width: 6.5rem;
+    background: #f0f0f0;
+}
+.searchCancel{
+    float: right;
+    padding-right: 0.45rem;
+    font-size: 0.4rem;
+    line-height: 0.81rem;
+    color: #969696;
+    display: none;
+}
+.searchButton{
+    float: right;
+    padding-right: 0.45rem;
+    font-size: 0.4rem;
+    line-height: 0.81rem;
+    color: #969696;
+}
+.menuBox{
+    overflow-x: scroll;
+    width: 100%
+}
+.menu{
+    height: 1.7rem;
+    border-bottom: 3px solid #f0f0f0;
+    min-width:350%;
+    display: flex;
+}
+.menu li{
+    line-height: 1.7rem;
+    color: #646464;
+    font-size: 0.4rem;
+    text-align: center;
+    flex: 1;
+}
+.menuActive{
+   font-size: 0.4rem !important;
+    color: #ff8e45 !important;
+    /* font-weight: 600; */
+}
+.searchHistory{
+    width: 10.18rem;
+    margin: 0 auto;
+    margin-top: 0.56rem;
+    overflow: hidden;
+}
+.searchHistory p{
+    font-size: 0.38rem;
+    color: #969696;
+    float: left;
+}
+.searchHistory img{
+    float: right;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem; 
+}
+.history{
+    border-radius: 20px;
+    padding: 0.16rem 0.3rem;
+    font-size: 0.34rem;
+    background: #f0f0f0;
+    color: #646464;
+    margin-top: 0.28rem;
+    float: left;
+    display: block;
+    margin-right: 0.5rem;
+}
+.historyBox{
+    overflow: hidden;
+    width: 100%;
+}
+.bannerTwo {
+	width: 100%;
+    overflow-y: auto;
+    position: fixed;
+    top: 3.2rem;
+    bottom: 0rem;
+}
+.bannerThree {
+	width: 100%;
+    overflow-y: auto;
+    position: fixed;
+    top: 1.2rem;
+    bottom: 0rem;
+}

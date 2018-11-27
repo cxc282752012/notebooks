@@ -1,0 +1,15 @@
+2018-11-20 11:26:11 80907 [http-nio-8999-exec-1] DEBUG c.b.n.mapper.UserMstMapper.findList - ==>  Preparing: SELECT * FROM `user_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
+2018-11-20 11:26:11 80928 [http-nio-8999-exec-1] DEBUG c.b.n.mapper.UserMstMapper.findList - ==> Parameters: 
+2018-11-20 11:26:11 80969 [http-nio-8999-exec-1] DEBUG c.b.n.mapper.UserMstMapper.findList - <==      Total: 1
+2018-11-20 11:26:21 90633 [http-nio-8999-exec-2] DEBUG c.b.n.mapper.UserMstMapper.findList - ==>  Preparing: SELECT * FROM `user_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
+2018-11-20 11:26:21 90633 [http-nio-8999-exec-2] DEBUG c.b.n.mapper.UserMstMapper.findList - ==> Parameters: 
+2018-11-20 11:26:21 90634 [http-nio-8999-exec-2] DEBUG c.b.n.mapper.UserMstMapper.findList - <==      Total: 1
+2018-11-20 13:11:20 6389376 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findList - ==>  Preparing: SELECT * FROM `user_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
+2018-11-20 13:11:20 6389377 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findList - ==> Parameters: 
+2018-11-20 13:11:20 6389383 [http-nio-8999-exec-4] DEBUG c.b.n.mapper.UserMstMapper.findList - <==      Total: 1
+2018-11-20 13:25:37 7246541 [http-nio-8999-exec-6] DEBUG c.b.n.mapper.UserMstMapper.findList - ==>  Preparing: SELECT * FROM `user_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
+2018-11-20 13:25:37 7246543 [http-nio-8999-exec-6] DEBUG c.b.n.mapper.UserMstMapper.findList - ==> Parameters: 
+2018-11-20 13:25:37 7246550 [http-nio-8999-exec-6] DEBUG c.b.n.mapper.UserMstMapper.findList - <==      Total: 1
+2018-11-20 13:28:49 7438267 [http-nio-8999-exec-8] DEBUG c.b.n.mapper.UserMstMapper.findList - ==>  Preparing: SELECT * FROM `user_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
+2018-11-20 13:28:49 7438268 [http-nio-8999-exec-8] DEBUG c.b.n.mapper.UserMstMapper.findList - ==> Parameters: 
+2018-11-20 13:28:49 7438271 [http-nio-8999-exec-8] DEBUG c.b.n.mapper.UserMstMapper.findList - <==      Total: 1

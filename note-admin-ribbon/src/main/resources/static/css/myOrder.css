@@ -1,0 +1,430 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+.element::-webkit-scrollbar {display:none}
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.select-title{
+    padding-left: .2rem;
+    padding-right: .2rem;
+    height: 1.18rem;
+    line-height: 1.18rem;
+    border-bottom: 1px solid #f0f0f0;
+    width: 120%;
+}
+.select-title .title{
+    font-size: .4rem;
+    color: #333;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.active{
+    color: #f79151;
+    border-bottom: 1px solid #f79151; 
+}
+.goodsContentBox{
+    float: left;
+    margin-left: .33rem;
+    width: 61%;
+}
+.top{
+    width: 100%;
+    overflow: hidden;
+}
+.goodsDes{
+    font-size: 0.38rem;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: .26rem;
+}
+.mescroll {
+    width: 100%;
+    overflow-y: auto;
+    position: fixed;
+    top: 2.5rem;
+    bottom: 0rem;
+    height: auto;
+}
+.selectBox{
+    position: fixed;
+    top:1.2rem;
+    width:100%;
+    background:#fff;
+    webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+}
+.bgisCancelled p {
+    line-height: 4.02rem;
+    color: #fff;
+    font-size: .46rem;
+    padding-left: 1.25rem;
+}
+.groupContent{
+	border-bottom: 0.14rem solid #f0f0f0;
+}
+.goodsColor{
+    color: #646464;
+    font-size: 0.38rem;
+}
+.goodsSize{
+    color: #646464;
+    font-size: 0.38rem;
+    float: left;
+}
+.bottom{
+    margin-top: .45rem;
+    width: 100%;
+}
+.goodsPrice{
+    color: #f79151;
+    font-size: .42rem;
+    font-weight: 600;
+    float: left;
+}
+.goodsContent{
+    padding: 0.3rem;
+}
+.goodsImg{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    float: left;
+} 
+.goddsTax{
+    font-size: .32rem;
+    color: #646464;
+    float: left;
+    line-height: .58rem;
+    margin-left: .24rem;
+}
+.goodsNum{
+    font-size: .4rem;
+    color: #646464;
+    float: right;
+    font-weight: 600
+}
+.groupState{
+    border-top: 1px solid #f0f0f0;
+    overflow: hidden
+}
+.stateLeft{
+    float: left;
+    padding-left: .3rem;
+}
+.stateLeft p{
+    font-size: 0.38rem;
+    line-height: 1.38rem;
+    color: #f79151
+}
+.stateLeft img{
+    float: left;
+    padding-top: .24rem;
+    padding-bottom: .24rem;
+    padding-right: .16rem;
+    width: .82rem;
+    height: .82rem;
+}
+.stateRight{
+    float: right;
+    padding-right: .3rem;
+    padding-top: .26rem;
+    padding-bottom: .26rem;
+}
+.orderDetails{
+    float: left;
+    width: 2.3rem;
+    font-size: .28rem;
+    color: #646464;
+    border: 1px solid #646464;
+    border-radius: 24px;
+    height: .72rem;
+    text-align: center;
+    line-height: .73rem;
+    margin-right: .5rem;
+}
+.groupDetails{
+    float: left;
+    color: #f79151;
+    width: 2.3rem;
+    font-size: .28rem;
+    border: 1px solid #f79151;
+    border-radius: 24px;
+    height: .72rem;
+    text-align: center;
+    line-height: .73rem
+}
+.content{
+    display: none;
+}
+.orderNone{
+    position: absolute;
+    top: 1.18rem;
+    width: 100%;
+    margin-top: 20%;
+}
+.empty-tip{
+	display:none !important
+}
+.orderNone img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto ;
+    margin-top: 3.4rem;
+}
+.orderNone p{
+    margin-top: .6rem;
+    font-size: .42rem;
+    color: #646464;
+    text-align: center
+}
+.orderState{
+    height: 1.28rem;
+    line-height: 1.28rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+.orderState p:nth-of-type(1){
+    float: left;
+    font-size: .38rem;
+    color: #333;
+    padding-left: .3rem;
+}
+.shipped{
+    float: right;
+    font-size: .38rem;
+    color: #333;
+    padding-right: .3rem;
+}
+.waiting{
+    float: right;
+    font-size: .38rem;
+    color:#f79151;
+    padding-right: .3rem;
+}
+.ovfHiden{overflow: hidden;}
+.showBox{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 100;
+    display: block;
+}
+.payMentBox{
+    height: 10.35rem;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    position: fixed;
+    bottom:0;
+    display: none;
+}
+.payMentTitle{
+    position: relative;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+    height: 1.2rem;
+}
+.payMentTitle p{
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: .4rem;
+    color: #333;
+}
+.payMentTitle img{
+    position: absolute;
+    right: .43rem;
+    top: .38rem;
+    width: .46rem;
+    height: .46rem;
+}
+.goodsPriceTwo{
+    font-size: .6rem;
+    color: #333;
+    line-height: 1.1rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+.goodsDesi{
+    padding: 0 0.36rem;
+}
+.goodsDesi li{
+    line-height: .94rem;
+    font-size: .38rem;
+}
+.goodsDesi li p:nth-of-type(2){
+    float: right;
+    color: #333;
+}
+.goodsDesName{
+    float: left;
+    color: #646464;
+}
+.payment{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+}
+.visa{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+.paymentIcon{
+    width: 1.18rem;
+    height: .36rem;
+    float: left;
+    padding-top: .1rem;
+    padding-left: .3rem;
+}
+.visaIcon{
+    margin-left: .3rem;
+    width: 1.36rem;
+    height: .36rem;
+    float: left;
+    padding-top: .15rem;
+    
+}
+.choseBox{
+    margin-top: .1rem;
+    margin-right: .3rem;
+    float: right;
+    width: .51rem;
+    height: .36rem;
+}
+.small-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.haveChose{
+    background: url('../images/gou.png');
+    background-size: .51rem .36rem;  
+    background-repeat:no-repeat;
+    background-position: 9.95rem .45rem;
+}
+.chose{
+    width: .57rem;
+    height: .57rem;
+    display: block;
+    opacity: 0;
+}
+.payButton{
+    height: 1.3rem;
+    width: 10.15rem;
+    margin: 0 auto;
+    margin-top: .64rem;
+    text-align: center;
+    line-height: 1.3rem;
+    border-radius: 24px;
+    background: -webkit-linear-gradient(left,#fb8f00, #fe5a00) !important;
+    background: -o-linear-gradient(left,#fb8f00, #fe5a00) !important;
+    background: -moz-linear-gradient(left,#fb8f00, #fe5a00) !important;
+    background: linear-gradient(left,#fb8f00, #fe5a00) !important;
+    font-size: .4rem;
+    color: #fff;
+}
+.errorIcon {
+    display: block;
+    width: 3.5rem;
+    height: 3.05rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.errorTxt {
+    font-size: .5rem;
+    color: #889191;
+    margin-top: 1.23rem;
+    text-align: center;
+}
+@keyframes myfirst
+{
+    0%   { bottom: -10.35rem;}
+    100% { bottom:0;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%   { bottom: -10.35rem;}
+    100% { bottom:0;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+    0%   { bottom: -10.35rem;}
+    100% { bottom:0;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+    0%   { bottom: -10.35rem;}
+    100% { bottom:0;}
+}
+
+
+@keyframes mySecond
+{
+    0%   { bottom: 0rem;}
+    100% { bottom:-10.35rem;}
+}
+
+@-moz-keyframes mySecond /* Firefox */
+{
+    0%   { bottom: 0rem;}
+    100% { bottom:-10.35rem;}
+}
+
+@-webkit-keyframes mySecond /* Safari and Chrome */
+{
+    0%   { bottom: 0rem;}
+    100% { bottom:-10.35rem;}
+}
+
+@-o-keyframes mySecond /* Opera */
+{
+    0%   { bottom: 0rem;}
+    100% { bottom:-10.35rem;}
+}

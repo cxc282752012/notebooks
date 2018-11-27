@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: note-zuul-servers
+server:
+  port: 6999
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9999/eureka/
+
+zuul:
+  routes:
+    note-book-servers:
+      path: /note-book-servers/**
+      serviceId: note-book-servers
+    note-system-servers:
+      path: /note-system-servers/**
+      serviceId: note-system-servers
+  thread-pool:
+    use-separate-thread-pools: true

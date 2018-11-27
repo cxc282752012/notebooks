@@ -1,0 +1,343 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+body{
+	background:#f0f0f0;
+}
+section{
+	background:#fff
+}
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.locationBox{
+    position: relative;
+    width: 1.05rem;
+    float: left;
+    height: .56rem;
+}
+.address-box{
+    padding-top: .2rem;
+}
+.location-icon{
+    width: .48rem;
+    height: 0.56rem;
+    position: absolute;
+    left: -7%;top: 50%;
+    margin-left: -.24rem;
+    margin-top: -.28rem;
+}
+.next-icon{
+    width: .25rem;
+    height: .44rem;
+    position: absolute;
+    right: -8%;top: 50%;
+    margin-right: -.125rem;
+    margin-top: -.22rem;
+}
+.addressContent{
+    float: left;
+    width: 80%;
+    margin-left: 1.1rem;
+}
+.addressContent{
+    position: relative;
+}
+.address{
+    font-size: .38rem;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.userInfo{
+    overflow:hidden;
+}
+.userName{
+    font-size: .38rem;
+    color: #333;
+    display: block;
+    float:left;
+}
+.userTel{
+    float: left;
+    display: block;
+    font-size: .38rem;
+    color: #333;
+    margin-left: .5rem;
+}
+.addressTxt{
+    width: 100%;
+    margin-top: .2rem;
+    display:block;
+}
+.mainBox{
+	padding:.3rem;
+	border-bottom: 1px solid #f0f0f0;
+}
+.goodsContent:last-of-type{
+    border-bottom: 0
+}
+.goodsImg{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    float: left;
+} 
+.goodsContentBox{
+    float: left;
+    margin-left: .33rem;
+    width: 62%;
+}
+.top{
+    width: 70%;
+}
+.goodsDes{
+    font-size: 0.38rem;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: .42rem;
+}
+.goodsColor{
+    color: #646464;
+    font-size: 0.38rem;
+}
+.goodsSize{
+    color: #646464;
+    font-size: 0.38rem;
+}
+.bottom{
+    margin-top: 0.76rem;
+    width: 100%;
+}
+.goodsPrice{
+    color: #f79151;
+    font-size: .42rem;
+    font-weight: 600;
+    float: left;
+}
+.goodsPrice2{
+    color: #f79151;
+    font-size: .42rem;
+    font-weight: 600;
+    float: left;
+}
+.goddsTax{
+    font-size: .32rem;
+    color: #646464;
+    float: left;
+    line-height: .5rem;
+    margin-left: .24rem;
+}
+.goodsNum{
+    font-size: .4rem;
+    color: #646464;
+    float: right;
+    font-weight: 600
+}
+.goodsDeatil{
+    width: 100%;
+    border-bottom: 0.14rem solid #f0f0f0;
+    border-top: 0.14rem solid #f0f0f0;
+}
+.small-box{
+    display: table-cell;
+    vertical-align: middle;
+}
+.Coupon{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 0.14rem solid #f0f0f0;
+}
+.nextIcon{
+    width: .25rem;
+    height: .44rem;
+    padding-right: .3rem;
+    float: right;
+}
+.deatilTitle{
+    font-size: 0.38rem;
+    color: #333;
+    float: left;
+    padding-left: .3rem;
+}
+.deatilTxt{
+    font-size: 0.38rem;
+    color: #949494;
+    float: right;
+    padding-right: .2rem;
+    padding-left: .3rem;
+}
+.titleBox{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0; 
+}
+.titleBox:last-of-type{
+    border-bottom: 0 
+}
+.title{
+    font-size: 0.38rem;
+    color: #6b6b6b;
+    float: left;
+    padding-left: .3rem;
+}
+.txt{
+    font-size: 0.38rem;
+    color: #6b6b6b;
+    float: right;
+    padding-right: .3rem;
+}
+.PaymentBox{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0; 
+}
+.payment{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+.visa{
+    display: table;
+    height: 1.15rem;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+.paymentIcon{
+    width: 1.18rem;
+    height: .36rem;
+    float: left;
+    padding-top: .1rem;
+    padding-left: .3rem;
+}
+.visaIcon{
+    margin-left: .3rem;
+    width: 1.36rem;
+    height: .36rem;
+    float: left;
+    padding-top: .15rem;
+    
+}
+.choseBox{
+    margin-top: .1rem;
+    margin-right: .3rem;
+    float: right;
+    width: .51rem;
+    height: .36rem;
+}
+
+.haveChose{
+    background: url('/images/gou.png');
+    background-size: .51rem .36rem;  
+    background-repeat:no-repeat;
+    background-position: 9.95rem .45rem;
+}
+.chose{
+    width: .57rem;
+    height: .57rem;
+    display: block;
+    opacity: 0;
+}
+.footer{
+	background:#fff;
+	z-index:9999;
+    width: 100%;
+    height: 1.46rem;
+    position: fixed;
+    bottom: 0;
+}
+.footer-txt{
+    float: right;
+    line-height: 1.46rem;
+    font-size: .4rem;
+    color: #333;
+    padding-left: .3rem;
+}
+.footer-txt span{
+    font-size: .44rem;
+    color: #f79151;
+    font-weight: 600;
+}
+.check-out{
+    margin-left: .48rem;
+    float: right;
+    height: 1.46rem;
+    width: 4rem;
+    text-align: center;
+    color: #fff;
+    font-size: .4rem;
+    background: #f79151;
+    line-height: 1.46rem;
+}
+.notButton{
+	pointer-events: none;
+}
+.codRule{
+    font-size: 0.3rem;
+    text-align: left;
+    padding-left: 0.7rem;
+    line-height: 1.1rem;
+    color: #646464;
+    background: #f0f0f0;
+    position: relative;
+    display: none;
+}
+.codRule img{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.28rem;
+}
+.freeShipping{
+    line-height: 0.66rem;
+    color: #f79151;
+    font-size: 0.3rem;
+    text-align: left;
+    background: #f0f0f0;
+    padding-left: 0.3rem;
+}

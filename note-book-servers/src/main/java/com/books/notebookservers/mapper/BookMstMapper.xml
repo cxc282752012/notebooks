@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.books.notebookservers.mapper.BookMstMapper" >
+  <resultMap id="result" type="com.books.notebookservers.entity.BookMstEntity" >
+    <id column="book_id" property="bookId" jdbcType="INTEGER" />
+    <result column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="notes" property="notes" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <select id="findList" resultMap="result">
+    SELECT * FROM `book_mst`
+    <where>
+      `create_time`!=''
+      <if test="userId!=null"> and `user_id`=#{userId}</if>
+      <if test="status!=null"> and `status`=#{status}</if>
+      ORDER BY
+      update_time DESC
+    </where>
+  </select>
+
+  <select id="findInfo" resultMap="result">
+    SELECT * FROM `book_mst`
+    <where>
+      1 = 1
+      <if test="bookId!=null"> and `book_id`=#{bookId}</if>
+    </where>
+  </select>
+
+  <delete id="doDelete" parameterType="java.lang.Integer" >
+    delete from book_mst
+    where book_id = #{bookId,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="doInsert" parameterType="com.books.notebookservers.entity.BookMstEntity" >
+    insert into book_mst (book_id, user_id, notes, 
+      status, create_time, update_time
+      )
+    values (#{bookId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{notes,jdbcType=VARCHAR}, 
+      #{status,jdbcType=INTEGER}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+
+  <update id="doUpdate" parameterType="com.books.notebookservers.entity.BookMstEntity" >
+    update book_mst
+    <set >
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="notes != null" >
+        notes = #{notes,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where book_id = #{bookId,jdbcType=INTEGER}
+  </update>
+</mapper>

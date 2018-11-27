@@ -1,0 +1,385 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; background: #f0f0f0}
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.mescroll {
+    position: fixed;
+    top: 2.5rem;
+    bottom: 0rem;
+    height: auto;
+}
+.selectBox{
+    background: #fff;
+}
+.select-title{
+    display: flex;
+    padding:0 0.36rem;
+    height: 1.2rem;
+}
+.select-title .title{
+    flex: 1;
+    font-size: 0.39rem;
+    color: #333;
+    line-height: 1.2rem;
+    text-align: center;
+    position: relative;
+}
+.select-title .active{
+    color: #ff8e45;
+    border-bottom: 1px solid #ff8e45
+}
+.logistics-list-all{
+    padding: 0 0.36rem;
+}
+.logisticsTime{
+    height: 0.98rem;
+}
+.logisticsTime p{
+    line-height: 0.98rem;
+    font-size: 0.32rem;
+    color: #b8b8b8;
+    float: left
+}
+.messageLoding{
+    float: left;
+    width:0.42rem;
+    margin-top: 0.28rem;
+    margin-right: 0.16rem;
+    height: 0.42rem
+}
+.logisticsBox{
+    background: #fff;
+    padding: 0 0.22rem 0.34rem 0.22rem;
+    border-radius: 4px;
+}
+.logisticsTitle{
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 1.01rem;
+    font-size: 0.39rem;
+    font-weight: 600;
+    color: #333;
+}
+.logisticGoods{
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.logisticImg{
+    float: left;
+    object-fit: cover;
+    width:2.5rem;
+    height: 2.5rem;
+}
+.logisticState{
+    width: 70%;
+    float: left;
+    margin-left: 0.2rem;
+}
+.logisticGoodsName{
+    color: #646464;
+    font-size: 0.36rem;display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.logisticGoodsQty{
+    color: #646464;
+    font-size: 0.34rem;
+    margin-top: 0.2rem;
+}
+.logisticGoodsCompany{
+    font-size: 0.39rem;
+    color: #333;
+    margin-top: 0.2rem;
+}
+
+.unread{
+	float: right;
+    width: 1.7rem;
+    font-size: 0.3rem;
+    background: #;
+    background: #ff8e45;
+    border-radius: 24px;
+    height: 0.6rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-top: 0.24rem;
+}
+
+.read{
+	float: right;
+    width: 1.7rem;
+    font-size: 0.3rem;
+    background: #;
+    background: #b8b8b8;
+    border-radius: 24px;
+    height: 0.6rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 0.6rem;
+    text-align: center;
+    margin-top: 0.24rem;
+}
+.groupBuy-list-all{
+    padding: 0 0.36rem;
+}
+.groupBuyTime{
+    height: 0.98rem;
+}
+.groupBuyTime p{
+    line-height: 0.98rem;
+    font-size: 0.32rem;
+    color: #b8b8b8;
+    float: left
+}
+.messageLoding{
+    float: left;
+    width:0.42rem;
+    margin-top: 0.28rem;
+    margin-right: 0.16rem;
+    height: 0.42rem
+}
+.groupBuyBox{
+    background: #fff;
+    padding: 0 0.22rem 0.34rem 0.22rem;
+    border-radius: 4px;
+}
+.groupBuyTitle{
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 1.01rem;
+    font-size: 0.39rem;
+    font-weight: 600;
+    color: #333;
+}
+.groupBuyGoods{
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.logisticImg{
+    float: left;
+    object-fit: cover;
+    width:2.5rem;
+    height: 2.5rem;
+}
+.groupBuyState{
+    width: 70%;
+    float: left;
+    margin-left: 0.2rem;
+}
+.groupBuyGoodsName{
+    color: #646464;
+    font-size: 0.36rem;display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.groupBuyMembersName{
+    font-size: 0.39rem;
+    color: #333;
+    margin-top: 0.54rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+
+.messageNum{
+	position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    background: #;
+    background: #ff8e45;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 0.5rem;
+    top: 0.1rem;
+    right: 0.2rem;
+    font-size: 0.3rem;
+    display:none
+}
+
+.notification-list-all{
+    padding: 0 0.36rem;
+}
+.notificationTime{
+    height: 0.98rem;
+}
+.notificationTime p{
+    line-height: 0.98rem;
+    font-size: 0.32rem;
+    color: #b8b8b8;
+    float: left
+}
+.messageLoding{
+    float: left;
+    width:0.42rem;
+    margin-top: 0.28rem;
+    margin-right: 0.16rem;
+    height: 0.42rem
+}
+.notificationBox{
+    background: #fff;
+    padding: 0 0.22rem 0.34rem 0.22rem;
+    border-radius: 4px;
+}
+.notificationTitle{
+    border-bottom: 1px solid #d8d8d8;
+    line-height: 1.01rem;
+    font-size: 0.39rem;
+    font-weight: 600;
+    color: #333;
+}
+.notificationGoods{
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.logisticImg{
+    float: left;
+    object-fit: cover;
+    width:2.5rem;
+    height: 2.5rem;
+}
+.notificationState{
+    width: 100%
+}
+.notificationName{
+    color: #646464;
+    font-size: 0.36rem;display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+
+
+
+.activities-list-all{
+    padding: 0 0.36rem;
+}
+.activitiesTime{
+    height: 0.98rem;
+}
+.activitiesTime p{
+    line-height: 0.98rem;
+    font-size: 0.32rem;
+    color: #b8b8b8;
+    float: left
+}
+.messageLoding{
+    float: left;
+    width:0.42rem;
+    margin-top: 0.28rem;
+    margin-right: 0.16rem;
+    height: 0.42rem
+}
+.activitiesBox{
+    background: #fff;
+    padding: 0 0.22rem 0rem 0.22rem;
+    border-radius: 4px;
+}
+.activitiesTitle{
+    line-height: 1.01rem;
+    font-size: 0.39rem;
+    font-weight: 600;
+    color: #333;
+}
+.activitiesGoods{
+    margin-top: 0.3rem;
+    overflow: hidden;
+}
+.logisticImg{
+    float: left;
+    object-fit: cover;
+    width:2.5rem;
+    height: 2.5rem;
+}
+.activitiesState{
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+}
+.activitiesnName{
+    color: #646464;
+    font-size: 0.36rem;display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0.34rem;
+}
+.activitiesState img{
+    height: 4rem;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 0.34rem;
+}
+.viewBox{
+    height: 0.9rem;
+    overflow: hidden;
+}
+.viewBox p{
+    line-height: 0.9rem;
+    color: #333;
+    font-size: 0.39rem;
+    float: left;
+    font-weight: 600;
+}
+.viewBox img{
+    float: right;
+    width: 0.27rem;
+    height: 0.46rem;
+    margin-top: 0.2rem;
+}
+
+.errorTxt{
+	color: #646464;
+    font-size: 0.46rem;
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
+.errorIcon{
+	width: 5.39rem;
+    height: 5.39rem;
+    display: block;
+    margin: 0 auto;
+}

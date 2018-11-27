@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Note Books H5</title>
+    <meta name="description" content="Note Books H5" />
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/public/common.js"></script>
+    <script type="text/javascript" src="/js/simpleTips_wap.js"></script>
+    <script type="text/javascript" src="/js/home/home.js"></script>
+    <link rel="stylesheet" href="/css/simpleTips_wap.css"/>
+    <link rel="stylesheet" href="/css/common.css"/>
+    <link rel="stylesheet" href="/css/sign-style.css" />
+</head>
+<body>
+<!-- 页面加载之前的loading图 -->
+<div id="loading">
+    <i></i>
+</div>
+<!-- 页面内容区域 -->
+<input type="hidden" name="backURL" id="backURL" th:value="${backURL}"/>
+<input type="hidden" name="parentId" id="parentId" th:value="${parentId}"/>
+<section class="main-wrapper">
+    <div class="logo-box">
+        <img src="/images/icon_logo.png" class="logo-icon"/>
+    </div>
+    <div class="main-box">
+        <div class="user-name-box">
+            <div class="small-box">
+                <input type="number" class="user-name" placeholder="手机号码" id="userPhone" name="userPhone" th:value="${userPhone}"/>
+            </div>
+        </div>
+        <div class="user-password-box">
+            <div class="small-box">
+                <input type="password" class="user-password" placeholder="密码" id="password" name="password" style="width: 50%;"/>
+            </div>
+        </div>
+    </div>
+    <div class="button-box" onclick="javascript:login()" style="margin-top: 1.6rem;">登录</div>
+    <div class="main-footer" style="margin-top: 0.32rem;">
+        <p id="registButton" class="no-account" style="color: #646464;" onclick="javascript:registerDetail()">注册账号</p>
+        <span class="clear"></span>
+    </div>
+    <!--<div class="other-box">-->
+        <!--<div class="other-str">-->
+            <!--<div class="small-box">-->
+                <!--<span class="str1"></span>-->
+                <!--<span class="other-title">OTHER LOGIN</span>-->
+                <!--<span class="str2"></span>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="other-content">-->
+            <!--<ul>-->
+                <!--<li onclick="javascript:facebookLogin()">-->
+                    <!--<a href="#">-->
+                        <!--<img src="/images/face book.png" class="facebook-icon"/>-->
+                        <!--<p>Facebook</p>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--&lt;!&ndash; <li onclick="javascript:gmailLogin()" id="gmailLogin">-->
+                    <!--<a href="#">-->
+                        <!--<img src="/images/face book.png" class="facebook-icon"/>-->
+                        <!--<p>Facebook</p>-->
+                    <!--</a>-->
+                <!--</li> &ndash;&gt;-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+</section>
+</body>
+<script type="text/javascript" src="/js/zepto.min.js" ></script>
+</html>

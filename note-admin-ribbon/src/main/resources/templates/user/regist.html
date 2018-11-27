@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Note Books H5</title>
+    <meta name="description" content="Note Books H5" />
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/public/common.js"></script>
+    <script type="text/javascript" src="/js/simpleTips_wap.js"></script>
+    <link rel="stylesheet" href="/css/simpleTips_wap.css"/>
+    <link rel="stylesheet" href="/css/common.css"/>
+    <link rel="stylesheet" href="/css/sign-style.css" />
+</head>
+
+<body>
+<!-- 页面加载之前的loading图 -->
+<div id="loading">
+    <i></i>
+</div>
+<!-- 页面内容区域 -->
+<section class="registMain">
+    <input type="hidden" name="parentId" id="parentId" th:value="${parentId}"/>
+    <input type="hidden" name="backURL" id="backURL" th:value="${backURL}"/>
+    <div class="registBox">
+        <div class="logo-box">
+            <img src="/images/icon_logo.png" class="logo-icon" />
+        </div>
+        <div class="registContent">
+            <div class="tabContent">
+                <div class="user-name-box" style="width:95%;margin:0 auto;">
+                    <div class="small-box">
+                        <input type="text" class="user-email" placeholder="Mobile/Email" id = "loginName" name = "loginName" style="background:#fff" th:value="${loginName}"/>
+                    </div>
+                </div>
+                <div class="user-code-box" style="width:95%;margin:0 auto;margin-top: 0.78rem;">
+                    <div class="small-box">
+                        <input type="text" class="user-code" placeholder="Verification Code" id="verificationCode" name="verificationCode" style="line-height: 0.6rem;background:#fff"/>
+                        <input class="getCode" id="emailCode" style="line-height: 0.6rem;" value="Get Code" />
+                    </div>
+                </div>
+                <div class="user-password-box" style="width:95%;margin:0 auto;margin-top: 0.78rem;">
+                    <div class="small-box">
+                        <input type="password" class="user-password pwd" placeholder="Password" id = "pwd" name = "pwd" style="width:70%"/>
+                        <input type="text" class="user-password pwd" placeholder="Password" id = "pwd2" name = "pwd" style="width:70%; display:none"  />
+                        <img src="/images/icon1.png" class="icon1" />
+                        <img src="/images/icon2.png" class="icon2" />
+                    </div>
+                </div>
+                <div class="private">
+                    <div class="smallBox">
+                        <input type="checkbox" checked="checked" id="privatePolicyChecked"/>
+                        <a href="/myAccount/customerPrivatePolicy.html">Private Policy</a>
+                    </div>
+                </div>
+                <div class="button-box noButton" style="margin:0 auto;margin-top:1.65rem;width:95%;" onclick="javascript:regist()">Register</div>
+                <div class="footerBottom">
+                    <p id="abouUs">About Us</p>
+                    <p id="Refund">Refund &amp; Cancellation</p>
+                    <p id="Terms">Terms &amp; Conditions</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+<script type="text/javascript" src="/js/zepto.min.js" ></script>
+</html>

@@ -1,0 +1,190 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.select-title{
+    padding-left: .3rem;
+    padding-right: .3rem;
+    height: 1.18rem;
+    line-height: 1.18rem;
+    border-bottom: 1px solid #f0f0f0;
+    position: fixed;
+    top: 1.2rem;
+    width: 95%;
+    background: #fff;
+
+}
+.select-title .title{
+    width:25%;
+    font-size: .42rem;
+    color: #333;
+    float: left;
+    text-align: center;
+}
+.select-content{
+    margin-top: 1.18rem;
+}
+.active{
+    color: #f79151;
+    border-bottom: 1px solid #f79151; 
+}
+.goodsContentBox{
+    float: left;
+    margin-left: .33rem;
+    width: 62%;
+}
+.top{
+    width: 100%;
+}
+.goodsDes{
+    font-size: 0.38rem;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: .24rem;
+}
+.goodsColor{
+    color: #646464;
+    font-size: 0.38rem;
+}
+.goodsSize{
+    color: #646464;
+    font-size: 0.38rem;
+}
+.bottom{
+    margin-top: .75rem;
+    width: 100%;
+}
+.goodsPrice{
+    color: #f79151;
+    font-size: .42rem;
+    font-weight: 600;
+    float: left;
+}
+.goodsContent{
+    padding: 0.3rem;
+}
+.goodsImg{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    float: left;
+} 
+.goddsTax{
+    font-size: .32rem;
+    color: #646464;
+    float: left;
+    line-height: .5rem;
+    margin-left: .24rem;
+}
+.goodsNum{
+    font-size: .4rem;
+    color: #646464;
+    float: right;
+    font-weight: 600
+}
+.groupState{
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 0.14rem solid #f0f0f0;
+}
+.stateLeft{
+    float: left;
+    padding-left: .3rem;
+}
+.stateLeft img{
+    float: left;
+    padding-top: .24rem;
+    padding-bottom: .24rem;
+    padding-right: .16rem;
+    width: .82rem;
+    height: .82rem;
+}
+.stateRight{
+    float: right;
+    padding-right: .3rem;
+    padding-top: .26rem;
+}
+.orderDetails{
+    float: left;
+    width: 2.6rem;
+    font-size: .28rem;
+    color: #646464;
+    border: 1px solid #646464;
+    border-radius: 24px;
+    height: .72rem;
+    text-align: center;
+    line-height: .73rem;
+    margin-right: .5rem;
+}
+.groupDetails{
+    float: left;
+    color: #f79151;
+    width: 2.6rem;
+    font-size: .28rem;
+    border: 1px solid #f79151;
+    border-radius: 24px;
+    height: .72rem;
+    text-align: center;
+    line-height: .73rem
+}
+.content{
+    display: none;
+}
+.orderNone{
+    position: absolute;
+    top: 3rem;
+    width: 100%;
+}
+.orderNone img{
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    margin: 0 auto ;
+    margin-top: 3.4rem;
+}
+.orderNone p{
+    margin-top: .6rem;
+    font-size: .42rem;
+    color: #646464;
+    text-align: center
+}

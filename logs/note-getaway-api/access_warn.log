@@ -1,0 +1,6 @@
+2018-10-29 14:02:22 2903 [localhost-startStop-1] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-10-29 14:02:23 3848 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-10-29 14:03:00 40649 [Thread-31] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1540792980633, current=DOWN, previous=UP]
+2018-10-29 14:03:30 3540 [localhost-startStop-1] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-10-29 14:03:31 4591 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2018-10-29 14:50:08 2801494 [Thread-33] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1540795808341, current=DOWN, previous=UP]

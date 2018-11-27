@@ -1,0 +1,97 @@
+    /*public css*/
+    body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+    li, dl, dt, dd, form, a, fieldset, input, th, td
+    {margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+    ul, ol{list-style: none;}
+    a{color: black;text-decoration: none;}
+    a:hover {text-decoration: none;}
+    a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+    html{font-family: "微软雅黑",Arial;height: 100%;}
+    select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+    }
+    body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; height: 100%}
+    textarea, a {
+        -webkit-tap-highlight-color: transparent;
+    }
+    input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+    .clear{
+        display: block;
+        clear: both
+    }
+    
+    #loading{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    #loading>i {
+        width: 1.6rem;
+        height: 1.6rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: url("/images/loading.gif") no-repeat;
+        background-size: cover;
+    }
+    section{
+        padding: 0.36rem
+    }
+    .main{
+        font-size: 0.4rem;
+        color: #333;
+        line-height: 0.74rem
+    }
+    .main p{
+        margin-bottom: 1rem
+    }
+    .pageTitle{
+        text-align: center;
+        font-size: 0.46rem;
+        color: #ff8e45;
+        margin-top: 0.85rem;
+    }
+    .pageImg{
+        display: block;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+        width: 9rem;
+        height: 3.79rem;
+    }
+    .pageMain{
+        margin:0 auto;
+        margin-top: 1.08rem;
+        width: 8.3rem;
+        padding: 0.5rem 0.35rem;
+        border:1px solid #ff8e45;
+        position: relative;
+    }
+    .pageMain p{
+        font-size: 0.4rem;
+        color: #646464;
+        line-height: 0.74rem;
+        margin-bottom: 0.85rem;
+    }
+    .pageMain p:last-of-type{
+        margin-bottom: 0rem;
+    }
+    .pageMain span{
+        font-size: 0.46rem;
+        color: #ff8e45;
+        position: absolute;
+        top: -0.55rem;
+        left: 33%;
+        z-index: 99;
+        display: block;
+        width: 3rem;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        background: #fff
+    }

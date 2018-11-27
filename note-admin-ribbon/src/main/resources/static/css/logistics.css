@@ -1,0 +1,148 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.top-concent{
+    border-bottom: 0.14rem solid #f0f0f0;
+}
+.top-main{
+    padding: .55rem;
+    overflow: hidden;
+}
+.goodsImg{
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    float: left;
+}
+.top-txt{
+    float: left;
+    margin-left: .44rem;
+}
+.state{
+    padding-top: .05rem;
+    font-size: .42rem;
+    color: #f79151;
+}
+.name{
+    font-size: .42rem;
+    color: #646464;
+    line-height: .94rem; 
+}
+.orderNum{
+    font-size: .4rem;
+    color: #646464; 
+}
+.center-main{
+	margin-bottom: 1.5rem;
+    padding: .6rem 0.5rem 0 .5rem
+}
+.locationBox{
+    overflow: hidden;
+}
+.location-icon{
+    width: .43rem;
+    height: .5rem;
+    display: block;
+    float: left;
+    margin-top: .1rem;
+}
+.locaotionTxt{
+    margin-left: .8rem;
+    font-size: .4rem;
+    color: #f79151;
+}
+.listState{
+    color: #c2c2c2;
+    font-size: .4rem;
+    margin-left: .8rem;
+}
+.listTime{
+    color: #c2c2c2;
+    font-size: .4rem;
+    margin-left: .8rem;
+}
+.track-list ul{
+    margin-top: .9rem;
+    padding-left: .2rem;
+}
+.track-list li{
+    width: 100%;
+    position: relative;
+    padding-top: .6rem;
+    border-left: 1px solid #ababab;
+}
+.track-list li:last-of-type{
+    padding-bottom: 0rem;
+}
+.track-list li:nth-of-type(1) .listTime{
+    color: #f79151
+}
+.track-list li:nth-of-type(1) .listState{
+    color: #f79151
+}
+.track-list li:nth-of-type(1) .node-icon{
+    position: absolute;
+    top: .7rem;
+    left: -0.2rem;
+    top: -.3rem;
+    width: .45rem;
+    height: .45rem;
+    background: url('/images/logisiticsIcon1.png');
+    background-size: contain;
+}
+.track-list li:nth-of-type(1){
+    padding-top: 0rem;
+    padding-bottom: 1.2rem;
+}
+.track-list li .node-icon{
+    position: absolute;
+    top: .7rem;
+    left: -0.2rem;
+    width: .45rem;
+    height: .45rem;
+    background: url('/images/logisiticsIcon2.png');
+    background-size:contain 
+}
+.track-list li:nth-of-type(1) .node-view{
+    position: absolute;
+    top: -.3rem;
+}

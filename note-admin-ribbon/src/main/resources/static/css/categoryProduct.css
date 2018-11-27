@@ -1,0 +1,274 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+.banner{
+    width: 100%;
+    height: 10.08rem !important;
+}
+.swiper-slide{
+    height: 10.08rem !important;
+    object-fit: cover;
+    display: block;
+}
+.productName{
+    width: 100%;
+    font-size:0.38rem;
+    color: #333;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+.images{
+    display: block;
+    height: 6.7rem;
+    width: 7.87rem;
+    margin : 0 auto;
+}
+.footer{
+    position: fixed;
+    height: 1.44rem;
+    bottom: 0;
+    background: #fff;
+    z-index: 100;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    width: 100%;
+}
+.footer div{
+    flex: 1;
+}
+.footer div:nth-of-type(1){
+    border-right: 1px solid #f0f0f0;
+}
+.footer div img{
+    width: 0.6rem;
+    height: 0.52rem;
+    display: block;
+    margin: 0 auto; margin-top: 0.3rem;
+}
+.footer div p{
+    text-align: center;
+    font-size: 0.38rem;
+    color: #646464;
+}
+.str{
+    height: 1.55rem;
+    width: 100%;
+}
+.txt{
+    color: #ff8e45;
+    font-size: 0.38rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.37rem;
+}
+.txtTwo{
+    color: #ff8e45;
+    font-size: 0.38rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.37rem;
+}
+.activeBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #ff7200;
+}
+.activeTitle{
+    width: 100%;
+    height: 5.5rem;
+    object-fit: cover;
+    display: block;
+}
+.activeTxt{
+    text-align: center;
+    height: 1rem;
+    line-height: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+.activeRote{
+    width: 8.86rem;
+    height: 8.28rem;
+    background: url("/images/activeBanner.png");
+    background-size:cover;
+    display: block;
+    margin:  0 auto;
+    overflow: hidden;
+}
+.activeRote img{
+    width: 2.58rem;
+    height: 2.13rem;
+    display: block;
+    
+}
+
+tr .activeProduct{
+    overflow: hidden;
+}
+.activeProduct{
+    display: block;
+    float: left;
+}
+tr:nth-of-type(1){
+    margin-top: 0.4rem;
+    margin-left: 0.38rem;
+    display: block;
+}
+/* .activeProduct:nth-of-type(2){
+    margin-top: 0.48rem;
+}
+.activeProduct:nth-of-type(3){
+    margin-top: 0.48rem;
+} */
+tr:nth-of-type(2){
+    margin-left: 0.38rem;
+    display: block;
+}
+tr:nth-of-type(3){
+    margin-left: 0.38rem;
+    display: block;
+}
+.activeRule{
+    width: 100%;
+    display: block;
+    height: 0.36rem;
+    object-fit: cover;
+    margin-top: 0.37rem;
+}
+.viewRule{
+    padding: 0.3rem 0.32rem;
+}
+.viewRule p {
+    font-size: 0.34rem;
+    color: #fff;
+    margin-top: 0.3rem;
+    line-height: 0.5rem;
+}
+.viewRuleImages{
+    width: 3.03rem;
+    height: 0.54rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.33rem;
+    margin-bottom: 1rem;
+}
+.mask{
+    display:none;
+} 
+.phone2{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/9999phone2.png") no-repeat;
+    background-size: cover
+}   
+.coupon1000{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/1000coupon2.png") no-repeat;
+    background-size: cover
+}   
+.headset2{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/headset2.png") no-repeat;
+    background-size: cover
+}
+.off50{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/50off2.png") no-repeat;
+    background-size: cover
+}
+.coupon50{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/50coupon2.png") no-repeat; 
+    background-size: cover
+}
+.coupon100{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/100coupon2.png") no-repeat; 
+    background-size: cover
+}
+.off30{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/30off2.png") no-repeat; 
+    background-size: cover
+}
+.goodluck2{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:url("/images/goodluck2.png") no-repeat;
+    background-size: cover
+}
+#lottery table td{position:relative;width: 2.59rem;height: 2.13rem;margin-top: 0.1rem;
+    margin-left: 0.1rem;display: block;}
+    #lottery table td.active .mask{display:block;}

@@ -1,0 +1,92 @@
+
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; height: 100%; background: #f0f0f0;}
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+
+
+.saveButton{
+    height: 1.3rem;
+    width: 10.16rem;
+    margin: 0 auto;
+    margin-top: 1.77rem;
+    line-height: 1.3rem;
+    font-size: .44rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 24px;
+    background: -webkit-linear-gradient(left,#fb8f00, #fe5a00); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(left,#fb8f00, #fe5a00); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(left,#fb8f00, #fe5a00); /* Firefox 3.6 - 15 */
+    background: linear-gradient(left,#fb8f00, #fe5a00); 
+}
+section{
+    width: 100%;
+    background: #fff;
+}
+section .addressBox:last-of-type{
+    border-bottom: 0;
+}
+.addressBox{
+    height: 1.8rem;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    display: table;
+}
+.smallBox{
+    display: table-cell;
+    vertical-align: middle;
+}
+.addressDes{
+    font-size: .42rem;
+    color: #333;
+    float: left;
+    padding-left: .3rem;
+    width: 24%;
+}
+.addressBox input{
+    padding-left: .63rem;
+    font-size: .42rem;
+    color: #646464;
+    float: left;
+    background: #fff;
+}
+

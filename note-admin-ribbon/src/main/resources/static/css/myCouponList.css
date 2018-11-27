@@ -1,0 +1,208 @@
+/*public css*/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;}
+ul, ol{list-style: none;}
+a{color: black;text-decoration: none;}
+a:hover {text-decoration: none;}
+a {border: none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent;outline: none;}
+html{font-family: "微软雅黑",Arial;}
+select{-moz-appearance:none;-webkit-appearance:none;-webkit-linearappearance:none;
+}
+body{-webkit-overflow-scrolling: touch;-webkit-overflow-scrolling : touch; }
+textarea, a {
+    -webkit-tap-highlight-color: transparent;
+}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.clear{
+    display: block;
+    clear: both
+}
+
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#loading>i {
+    width: 1.6rem;
+    height: 1.6rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url("/images/loading.gif") no-repeat;
+    background-size: cover;
+}
+
+.myCouponsList-title{
+    height: 1.2rem;
+    width: 100%; 
+    border-bottom: 1px solid #f8f8f8;
+}
+
+.content{
+    display:  none;
+}
+.choseTab{
+    line-height: 1.2rem;
+    margin-left: 1.9rem;
+    text-align: center;
+    float: left;
+    font-size: .42rem;color: #333;
+}
+.myCouponsList-title .choseTab:nth-of-type(2){
+    float: right;
+    margin-right: 1.9rem;
+}
+.choseTab span{
+    height: 1.2rem;
+    display: inline-block;
+}
+.active{
+    color: #f79151;
+    border-bottom: 2px solid #f79151;
+}
+.myCouponsList-content{
+    margin-top: .56rem;
+    padding: 0 .3rem;
+    overflow: hidden;
+}
+.couponsContent{
+    float: left;
+    width: 10.14rem;
+    height: 3.78rem; 
+    margin-bottom: .3rem;
+    position: relative;
+}
+.choseIcon{
+    background: url('/images/coupons-chose.png') ;
+    background-size: cover 
+}
+.nochoseIcon{
+    background: url('/images/couponsno-chose.png');
+    background-size: cover;
+}
+.haveChose{
+    background: url('/images/couponsbg.png') ;
+    background-size: cover ;
+}
+.noChose{
+    background: url('/images/couponsbgNone.png');
+    background-size: cover;
+}
+.left{
+    float: left;
+    margin-top: .76rem;
+    width: 36%;
+}
+.left-num{
+    text-align: center;
+    font-size: 0.6rem;
+    color: #333;
+    font-weight: 600;
+}
+.left-txt{
+    text-align: center;
+    font-size: .46rem;
+    color: #333;
+    margin-top: .2rem;
+}
+.right{
+    margin-left: .45rem;
+    margin-top: .82rem;
+    float: left;
+    font-size: .46rem;
+    color: #333; 
+}
+.right-txt{
+    margin-top: .26rem;
+}
+.right-num{
+    width:6rem;
+}
+.date-time{
+   font-size: .4rem;
+    color: #333;
+    float: left;
+    height: .82rem;
+    line-height: .82rem;
+    clear: both;
+    position: absolute;
+    bottom: 0.05rem;
+    left: 0.3rem;
+}
+.footerbox{
+    margin-top: .2rem;
+    padding-left: 7.5%; 
+}
+.footertitle{
+    margin-bottom: .2rem;
+    font-size: .4rem;
+    color: #333; 
+    padding-left: 4%;
+}
+.toUse{
+    background: -webkit-linear-gradient(left,#fb8f00, #fe5a00) !important;
+    background: -o-linear-gradient(left,#fb8f00, #fe5a00) !important;
+    background: -moz-linear-gradient(left,#fb8f00, #fe5a00) !important;
+    background: linear-gradient(left,#fb8f00, #fe5a00) !important;
+    height: .68rem;
+    width: 1.96rem;
+    color: #fff;
+    font-size: .3rem;
+    line-height: .72rem;
+    text-align: center;
+    float: right;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0.12rem;
+    right: 0.3rem;
+}
+.used{
+    background: #b3b3b3;
+    height: .68rem;
+    width: 1.96rem;
+    color: #fff;
+    font-size: .3rem;
+    line-height: .72rem;
+    text-align: center;
+    border-radius: 24px;
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.15rem;
+}
+.errorIcon {
+    display: block;
+    width: 5.79rem;
+    height: 5.65rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.errorTxt {
+    font-size: .5rem;
+    color: #889191;
+    margin-top: 1.23rem;
+    text-align: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left,#fb8f00, #fe5a00); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left,#fb8f00, #fe5a00); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left,#fb8f00, #fe5a00); /* Firefox 3.6 - 15 */
+    background: linear-gradient(left,#fb8f00, #fe5a00); 
+    font-size: .44rem;
+    color: #fff;
+    width: 100%;
+    height: 1.42rem;
+    line-height: 1.42rem;
+    text-align: center;
+}

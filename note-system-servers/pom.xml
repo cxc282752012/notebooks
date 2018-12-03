@@ -12,10 +12,9 @@
 	<description>Note System Servers</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.5.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.notes</groupId>
+		<artifactId>notebooks</artifactId>
+		<version>1.0-SNAPSHOT</version>
 	</parent>
 
 	<properties>
@@ -83,17 +82,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.books.notesystemservers.NoteSystemServersApplication</mainClass>
-					<layout>ZIP</layout>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 			<!-- mybatis generator 自动生成代码插件 -->
 			<plugin>
@@ -106,7 +94,6 @@
 					<verbose>true</verbose>
 				</configuration>
 			</plugin>
-
 		</plugins>
 		<resources>
 			<resource>

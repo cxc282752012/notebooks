@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="note-base-core" />
         <module name="note-book-servers" />
+        <module name="note-config-center" />
         <module name="note-gateway-api" />
         <module name="note-h5-servers" />
         <module name="note-system-servers" />
@@ -28,6 +29,7 @@
       <module name="note-admin-ribbon" options="-parameters" />
       <module name="note-base-core" options="-parameters" />
       <module name="note-book-servers" options="-parameters" />
+      <module name="note-config-center" options="-parameters" />
       <module name="note-gateway-api" options="-parameters" />
       <module name="note-h5-servers" options="-parameters" />
       <module name="note-system-servers" options="-parameters" />

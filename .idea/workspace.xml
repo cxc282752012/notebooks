@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7924cae-95ca-483f-8fdc-7a3666d4fac4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/note-system-servers/access_warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/note-system-servers/access_warn.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-base-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note-base-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-base-core/src/main/java/com/books/notebasecore/util/CustomJsonDateDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-base-core/src/test/java/com/books/notebasecore/NoteBaseCoreApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-system-servers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note-system-servers/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-eureka-servers/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/register-eureka-servers/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/register-eureka-servers/target/" />
@@ -106,10 +96,10 @@
           <entry key="java" value="217" />
           <entry key="js" value="7" />
           <entry key="log" value="2" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="pom" value="1" />
           <entry key="properties" value="64" />
-          <entry key="xml" value="108" />
+          <entry key="xml" value="111" />
           <entry key="yml" value="5" />
         </counts>
       </usages-collector>
@@ -121,11 +111,11 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="217" />
           <entry key="JavaScript" value="7" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="64" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="109" />
+          <entry key="XML" value="112" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
@@ -136,7 +126,7 @@
           <entry key="html" value="74" />
           <entry key="java" value="1182" />
           <entry key="js" value="203" />
-          <entry key="md" value="6" />
+          <entry key="md" value="17" />
           <entry key="properties" value="197" />
           <entry key="xml" value="153" />
           <entry key="yml" value="208" />
@@ -147,7 +137,7 @@
           <entry key="HTML" value="74" />
           <entry key="JAVA" value="1182" />
           <entry key="JavaScript" value="203" />
-          <entry key="Markdown" value="6" />
+          <entry key="Markdown" value="17" />
           <entry key="PLAIN_TEXT" value="67" />
           <entry key="Properties" value="197" />
           <entry key="XML" value="153" />
@@ -162,28 +152,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/note-h5-servers/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="296">
+              <caret line="93" column="55" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/register-eureka-servers/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -250,7 +234,6 @@
         <option value="$PROJECT_DIR$/note-zuul-servers/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/note-base-core/src/main/java/com/books/notebasecore/util/HttpRequestUtil.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/note-admin-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/utils/PrinterServiceUtil.java" />
         <option value="$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/NoteH5ServersApplication.java" />
@@ -281,6 +264,7 @@
         <option value="$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/note-book-servers/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/register-eureka-servers/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -328,6 +312,16 @@
             <path>
               <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="note-h5-servers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="note-system-servers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="notebooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
               <item name="register-eureka-servers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -345,11 +339,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545617796378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545618129386" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -570,7 +564,7 @@
       <workItem from="1544676758838" duration="293000" />
       <workItem from="1545204016387" duration="40000" />
       <workItem from="1545358508959" duration="810000" />
-      <workItem from="1545615667148" duration="1357000" />
+      <workItem from="1545615667148" duration="1656000" />
     </task>
     <servers />
   </component>
@@ -607,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103733000" />
+    <option name="totallyTimeSpent" value="104032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,9 +719,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/resources/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1452">
@@ -948,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note-system-servers/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/note-h5-servers/src/main/java/com/books/noteh5servers/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1007,13 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note-h5-servers/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="39" column="54" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/note-base-core/src/main/java/com/books/notebasecore/util/HttpJsonResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1048,10 +1025,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/note-system-servers/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-eureka-servers/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1062,10 +1046,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/register-eureka-servers/.gitignore">
+    <entry file="file://$PROJECT_DIR$/note-system-servers/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note-h5-servers/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="93" column="55" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1128,7 +1129,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,6 +1,3 @@
-2018-10-29 14:04:23 66697 [http-nio-8998-exec-1] DEBUG c.b.n.mapper.BookMstMapper.findList - ==>  Preparing: SELECT * FROM `book_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
-2018-10-29 14:04:23 66714 [http-nio-8998-exec-1] DEBUG c.b.n.mapper.BookMstMapper.findList - ==> Parameters: 
-2018-10-29 14:04:23 66726 [http-nio-8998-exec-1] DEBUG c.b.n.mapper.BookMstMapper.findList - <==      Total: 0
-2018-10-29 14:04:35 79014 [http-nio-8998-exec-3] DEBUG c.b.n.mapper.BookMstMapper.findList - ==>  Preparing: SELECT * FROM `book_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
-2018-10-29 14:04:35 79014 [http-nio-8998-exec-3] DEBUG c.b.n.mapper.BookMstMapper.findList - ==> Parameters: 
-2018-10-29 14:04:35 79015 [http-nio-8998-exec-3] DEBUG c.b.n.mapper.BookMstMapper.findList - <==      Total: 0
+2018-12-24 11:39:08 95714 [http-nio-8998-exec-1] DEBUG c.b.n.mapper.BookMstMapper.findList - ==>  Preparing: SELECT * FROM `book_mst` WHERE `create_time`!='' ORDER BY update_time DESC 
+2018-12-24 11:39:08 95729 [http-nio-8998-exec-1] DEBUG c.b.n.mapper.BookMstMapper.findList - ==> Parameters: 
+2018-12-24 11:39:08 95756 [http-nio-8998-exec-1] DEBUG c.b.n.mapper.BookMstMapper.findList - <==      Total: 1

@@ -95,7 +95,6 @@
         </encoder>
     </appender>
 
-
     <appender name="ASYNC_LOG" class="ch.qos.logback.classic.AsyncAppender">
         <!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->
         <discardingThreshold>0</discardingThreshold>
@@ -148,5 +147,4 @@
         <appender-ref ref="ASYNC_LOG_ERROR"/>
     </root>
     <logger name="org.springframework" level="INFO"/>
-    <logger name="com.books.notebookservers.mapper.BookMstMapper" level="DEBUG"/>
 </configuration>

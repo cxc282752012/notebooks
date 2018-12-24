@@ -10,4 +10,4 @@ JVM:OpenJDK 64-Bit Server VM by JetBrains s.r.o
 
 Spring Cloud Finchley.SR1
 
-Spring Boot 2.1.1
+Spring Boot 2.0.5.RELEASE

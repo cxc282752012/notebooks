@@ -76,3 +76,187 @@
 2018-12-24 10:11:08 23256 [Thread-30] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
 2018-12-24 10:11:08 23260 [Thread-30] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
 2018-12-24 10:11:08 23263 [Thread-30] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2018-12-24 11:23:45 1221 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@62e20a76: startup date [Mon Dec 24 11:23:45 CST 2018]; root of context hierarchy
+2018-12-24 11:23:45 1521 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-24 11:23:45 1563 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$80e906] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:23:45 1760 [main] INFO  c.b.n.NoteSystemServersApplication - No active profile set, falling back to default profiles: default
+2018-12-24 11:23:45 1783 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cad8b7d: startup date [Mon Dec 24 11:23:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62e20a76
+2018-12-24 11:23:46 2543 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=156f69b8-2236-3978-aba8-e5adbf5b8401
+2018-12-24 11:23:46 2558 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-24 11:23:46 2647 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e466e609] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:23:46 2677 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$80e906] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:23:47 3069 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+2018-12-24 11:23:47 3082 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+2018-12-24 11:23:47 3092 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 11:23:47 3092 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-12-24 11:23:47 3096 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenxichao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-24 11:23:47 3213 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 11:23:47 3213 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1430 ms
+2018-12-24 11:23:47 3280 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-12-24 11:23:47 3293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-24 11:23:47 3293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-24 11:23:47 3293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-24 11:23:47 3293 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-24 11:23:48 4024 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-24 11:23:48 4029 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-24 11:23:48 4127 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 11:23:48 4330 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cad8b7d: startup date [Mon Dec 24 11:23:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62e20a76
+2018-12-24 11:23:48 4389 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/doUpdate],methods=[POST]}" onto public com.books.notebasecore.util.ServiceResult<java.lang.Integer> com.books.notesystemservers.controller.UserMstController.doUpdate(com.books.notesystemservers.entity.UserMstEntity)
+2018-12-24 11:23:48 4390 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/doInsert],methods=[POST]}" onto public com.books.notebasecore.util.ServiceResult<java.lang.Integer> com.books.notesystemservers.controller.UserMstController.doInsert(com.books.notesystemservers.entity.UserMstEntity)
+2018-12-24 11:23:48 4391 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findInfo],methods=[GET]}" onto public com.books.notebasecore.util.ServiceResult<com.books.notesystemservers.entity.UserMstEntity> com.books.notesystemservers.controller.UserMstController.findInfo(javax.servlet.http.HttpServletRequest)
+2018-12-24 11:23:48 4391 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findList],methods=[GET]}" onto public com.books.notebasecore.util.ServiceResult<java.util.List<com.books.notesystemservers.entity.UserMstEntity>> com.books.notesystemservers.controller.UserMstController.findList(javax.servlet.http.HttpServletRequest)
+2018-12-24 11:23:48 4391 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/doDelete],methods=[POST]}" onto public com.books.notebasecore.util.ServiceResult<java.lang.Boolean> com.books.notesystemservers.controller.UserMstController.doDelete(int)
+2018-12-24 11:23:48 4394 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-24 11:23:48 4394 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-24 11:23:48 4422 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 11:23:48 4422 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 11:23:49 5063 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-24 11:23:49 5064 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-24 11:23:49 5071 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-12-24 11:23:49 5072 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-12-24 11:23:49 5073 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-12-24 11:23:49 5076 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-12-24 11:23:49 5091 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-12-24 11:23:49 5102 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5cad8b7d,type=ConfigurationPropertiesRebinder]
+2018-12-24 11:23:49 5108 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-24 11:23:49 5112 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+2018-12-24 11:23:49 5128 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2018-12-24 11:23:49 5309 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-12-24 11:23:49 5519 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-12-24 11:23:49 5519 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-12-24 11:23:49 5638 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-12-24 11:23:49 5638 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-12-24 11:23:49 5905 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-12-24 11:23:49 5931 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-12-24 11:23:50 6232 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2018-12-24 11:23:50 6234 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-12-24 11:23:50 6236 [main] INFO  c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-24 11:23:50 6241 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1545621830270 with initial instances count: 0
+2018-12-24 11:23:50 6245 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application note-system-servers with eureka with status UP
+2018-12-24 11:23:50 6246 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1545621830276, current=UP, previous=STARTING]
+2018-12-24 11:23:50 6247 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_NOTE-SYSTEM-SERVERS/192.168.2.102:note-system-servers:8999: registering service...
+2018-12-24 11:23:50 6262 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+2018-12-24 11:23:50 6293 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 11:23:50 6313 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path ''
+2018-12-24 11:23:50 6314 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8999
+2018-12-24 11:23:50 6317 [main] INFO  c.b.n.NoteSystemServersApplication - Started NoteSystemServersApplication in 6.112 seconds (JVM running for 7.09)
+2018-12-24 11:23:50 6353 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_NOTE-SYSTEM-SERVERS/192.168.2.102:note-system-servers:8999 - registration status: 204
+2018-12-24 11:24:20 36239 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-12-24 11:24:20 36239 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-12-24 11:24:20 36239 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-12-24 11:24:20 36239 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2018-12-24 11:24:20 36240 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-12-24 11:24:20 36240 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2018-12-24 11:24:20 36240 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-12-24 11:24:20 36292 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2018-12-24 11:27:26 222308 [http-nio-8999-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 11:27:26 222311 [http-nio-8999-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-24 11:27:26 222373 [http-nio-8999-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 62 ms
+2018-12-24 11:27:26 222676 [http-nio-8999-exec-2] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-24 11:28:49 305944 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-12-24 11:33:07 563508 [Thread-30] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5cad8b7d: startup date [Mon Dec 24 11:23:45 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62e20a76
+2018-12-24 11:33:07 563510 [Thread-30] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application note-system-servers with eureka with status DOWN
+2018-12-24 11:33:07 563511 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_NOTE-SYSTEM-SERVERS/192.168.2.102:note-system-servers:8999: registering service...
+2018-12-24 11:33:07 563512 [Thread-30] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+2018-12-24 11:33:07 563515 [Thread-30] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-12-24 11:33:07 563517 [Thread-30] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-12-24 11:33:07 563530 [Thread-30] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-12-24 11:33:07 563530 [Thread-30] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2018-12-24 11:33:30 1170 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@56e8b606: startup date [Mon Dec 24 11:33:30 CST 2018]; root of context hierarchy
+2018-12-24 11:33:31 1581 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-24 11:33:31 1619 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85951b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:33:31 1818 [main] INFO  c.b.n.NoteSystemServersApplication - No active profile set, falling back to default profiles: default
+2018-12-24 11:33:31 1835 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d83c5a5: startup date [Mon Dec 24 11:33:31 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56e8b606
+2018-12-24 11:33:32 2548 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=156f69b8-2236-3978-aba8-e5adbf5b8401
+2018-12-24 11:33:32 2564 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-24 11:33:32 2657 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$697b185b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:33:32 2687 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$85951b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-24 11:33:32 3063 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8999 (http)
+2018-12-24 11:33:32 3075 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8999"]
+2018-12-24 11:33:32 3088 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-24 11:33:32 3088 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-12-24 11:33:32 3094 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/chenxichao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-24 11:33:32 3183 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-24 11:33:32 3184 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1349 ms
+2018-12-24 11:33:32 3247 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-12-24 11:33:32 3251 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-24 11:33:32 3252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-24 11:33:32 3252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-24 11:33:32 3252 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-24 11:33:33 3718 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-24 11:33:33 3723 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-24 11:33:33 3806 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 11:33:33 4016 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d83c5a5: startup date [Mon Dec 24 11:33:31 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56e8b606
+2018-12-24 11:33:33 4076 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/doInsert],methods=[POST]}" onto public com.books.notebasecore.util.ServiceResult<java.lang.Integer> com.books.notesystemservers.controller.UserMstController.doInsert(com.books.notesystemservers.entity.UserMstEntity)
+2018-12-24 11:33:33 4077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/doUpdate],methods=[POST]}" onto public com.books.notebasecore.util.ServiceResult<java.lang.Integer> com.books.notesystemservers.controller.UserMstController.doUpdate(com.books.notesystemservers.entity.UserMstEntity)
+2018-12-24 11:33:33 4077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findList],methods=[GET]}" onto public com.books.notebasecore.util.ServiceResult<java.util.List<com.books.notesystemservers.entity.UserMstEntity>> com.books.notesystemservers.controller.UserMstController.findList(javax.servlet.http.HttpServletRequest)
+2018-12-24 11:33:33 4077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/findInfo],methods=[GET]}" onto public com.books.notebasecore.util.ServiceResult<com.books.notesystemservers.entity.UserMstEntity> com.books.notesystemservers.controller.UserMstController.findInfo(javax.servlet.http.HttpServletRequest)
+2018-12-24 11:33:33 4077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/doDelete],methods=[POST]}" onto public com.books.notebasecore.util.ServiceResult<java.lang.Boolean> com.books.notesystemservers.controller.UserMstController.doDelete(int)
+2018-12-24 11:33:33 4079 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-24 11:33:33 4080 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-24 11:33:33 4107 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 11:33:33 4108 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-24 11:33:34 4759 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-24 11:33:34 4761 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-24 11:33:34 4767 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-12-24 11:33:34 4768 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-12-24 11:33:34 4769 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-12-24 11:33:34 4772 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-12-24 11:33:34 4782 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-12-24 11:33:34 4792 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2d83c5a5,type=ConfigurationPropertiesRebinder]
+2018-12-24 11:33:34 4797 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-12-24 11:33:34 4802 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+2018-12-24 11:33:34 4815 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2018-12-24 11:33:34 4851 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2018-12-24 11:33:34 5006 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2018-12-24 11:33:34 5006 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2018-12-24 11:33:34 5126 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2018-12-24 11:33:34 5126 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2018-12-24 11:33:35 5381 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2018-12-24 11:33:35 5398 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-12-24 11:33:35 5579 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2018-12-24 11:33:35 5581 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2018-12-24 11:33:35 5583 [main] INFO  c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-24 11:33:35 5591 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1545622415243 with initial instances count: 0
+2018-12-24 11:33:35 5599 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application note-system-servers with eureka with status UP
+2018-12-24 11:33:35 5600 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1545622415255, current=UP, previous=STARTING]
+2018-12-24 11:33:35 5603 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_NOTE-SYSTEM-SERVERS/192.168.2.102:note-system-servers:8999: registering service...
+2018-12-24 11:33:35 5623 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8999"]
+2018-12-24 11:33:35 5678 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-24 11:33:35 5707 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8999 (http) with context path ''
+2018-12-24 11:33:35 5708 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8999
+2018-12-24 11:33:35 5712 [main] INFO  c.b.n.NoteSystemServersApplication - Started NoteSystemServersApplication in 5.497 seconds (JVM running for 6.429)
+2018-12-24 11:33:35 5723 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_NOTE-SYSTEM-SERVERS/192.168.2.102:note-system-servers:8999 - registration status: 204
+2018-12-24 11:34:05 35587 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2018-12-24 11:34:05 35588 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2018-12-24 11:34:05 35588 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2018-12-24 11:34:05 35588 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2018-12-24 11:34:05 35588 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2018-12-24 11:34:05 35588 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+2018-12-24 11:34:05 35588 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2018-12-24 11:34:05 35677 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2018-12-24 11:34:32 62505 [http-nio-8999-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-24 11:34:32 62506 [http-nio-8999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-24 11:34:32 62538 [http-nio-8999-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-12-24 11:34:32 62664 [http-nio-8999-exec-1] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-24 11:38:35 305411 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2018-12-24 11:42:56 567295 [Thread-29] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d83c5a5: startup date [Mon Dec 24 11:33:31 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@56e8b606
+2018-12-24 11:42:56 567298 [Thread-29] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application note-system-servers with eureka with status DOWN
+2018-12-24 11:42:56 567300 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_NOTE-SYSTEM-SERVERS/192.168.2.102:note-system-servers:8999: registering service...
+2018-12-24 11:42:56 567309 [Thread-29] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0
+2018-12-24 11:42:56 567319 [Thread-29] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-12-24 11:42:56 567321 [Thread-29] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-12-24 11:42:56 567332 [Thread-29] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-12-24 11:42:56 567333 [Thread-29] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...

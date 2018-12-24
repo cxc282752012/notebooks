@@ -25,5 +25,6 @@
         <module>note-gateway-api</module>
         <module>note-zuul-servers</module>
         <module>note-h5-servers</module>
+        <module>note-config-center</module>
     </modules>
 </project>

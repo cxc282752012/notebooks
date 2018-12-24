@@ -148,5 +148,4 @@
         <appender-ref ref="ASYNC_LOG_ERROR"/>
     </root>
     <logger name="org.springframework" level="INFO"/>
-    <logger name="com.books.notesystemservers.mapper.UserMstMapper" level="DEBUG"></logger>
 </configuration>

@@ -1,4 +1,4 @@
-2018-12-03 10:20:38 22112 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+2018-12-24 10:11:08 23265 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
 com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -52,8 +52,8 @@ Caused by: java.net.SocketException: Connection reset
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 30 common frames omitted
-2018-12-03 10:20:38 22119 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
-com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+2018-12-24 10:11:08 23278 [DiscoveryClient-InstanceInfoReplicator-0] ERROR c.n.d.s.t.d.RedirectingEurekaHttpClient - Request execution error
+com.sun.jersey.api.client.ClientHandlerException: java.net.SocketException: Connection reset
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -86,19 +86,22 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-Caused by: java.net.ConnectException: Connection refused
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:161)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:278)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:286)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:230)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
 	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)

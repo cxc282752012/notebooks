@@ -3,6 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>com.notes</groupId>
+		<artifactId>notebooks</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
 	<groupId>com.books</groupId>
 	<artifactId>note-system-servers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -10,12 +16,6 @@
 
 	<name>note-system-servers</name>
 	<description>Note System Servers</description>
-
-	<parent>
-		<groupId>com.notes</groupId>
-		<artifactId>notebooks</artifactId>
-		<version>1.0-SNAPSHOT</version>
-	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

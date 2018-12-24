@@ -16,7 +16,7 @@
 *.iml
 *.ipr
 *.class
-/logs/
+/logs/*
 /target/
 
 ### NetBeans ###

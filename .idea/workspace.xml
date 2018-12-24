@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7924cae-95ca-483f-8fdc-7a3666d4fac4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,7 +95,7 @@
           <entry key="java" value="217" />
           <entry key="js" value="7" />
           <entry key="log" value="2" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="pom" value="1" />
           <entry key="properties" value="64" />
           <entry key="xml" value="111" />
@@ -111,7 +110,7 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="217" />
           <entry key="JavaScript" value="7" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="64" />
           <entry key="UML" value="1" />
@@ -126,7 +125,7 @@
           <entry key="html" value="74" />
           <entry key="java" value="1182" />
           <entry key="js" value="203" />
-          <entry key="md" value="17" />
+          <entry key="md" value="20" />
           <entry key="properties" value="197" />
           <entry key="xml" value="153" />
           <entry key="yml" value="208" />
@@ -137,7 +136,7 @@
           <entry key="HTML" value="74" />
           <entry key="JAVA" value="1182" />
           <entry key="JavaScript" value="203" />
-          <entry key="Markdown" value="17" />
+          <entry key="Markdown" value="20" />
           <entry key="PLAIN_TEXT" value="67" />
           <entry key="Properties" value="197" />
           <entry key="XML" value="153" />
@@ -154,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/note-h5-servers/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="93" column="55" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
+            <state relative-caret-position="266">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -164,8 +163,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="165">
-                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -339,7 +338,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545618129386" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545618215781" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -564,7 +563,7 @@
       <workItem from="1544676758838" duration="293000" />
       <workItem from="1545204016387" duration="40000" />
       <workItem from="1545358508959" duration="810000" />
-      <workItem from="1545615667148" duration="1656000" />
+      <workItem from="1545615667148" duration="1753000" />
     </task>
     <servers />
   </component>
@@ -601,7 +600,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104032000" />
+    <option name="totallyTimeSpent" value="104129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1055,16 +1054,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/note-h5-servers/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="93" column="55" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
+        <state relative-caret-position="266">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>

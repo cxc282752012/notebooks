@@ -26,5 +26,6 @@
         <module>note-zuul-servers</module>
         <module>note-h5-servers</module>
         <module>note-config-center</module>
+        <module>note-admin-servers</module>
     </modules>
 </project>

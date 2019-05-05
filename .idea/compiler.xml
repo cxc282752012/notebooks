@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="note-gateway-api" />
+        <module name="note-config-center" />
+        <module name="note-h5-servers" />
+        <module name="note-zuul-servers" />
         <module name="note-base-core" />
         <module name="note-book-servers" />
-        <module name="note-config-center" />
-        <module name="note-gateway-api" />
-        <module name="note-h5-servers" />
-        <module name="note-system-servers" />
-        <module name="note-zuul-servers" />
         <module name="register-eureka-servers" />
+        <module name="note-system-servers" />
+        <module name="note-admin-servers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="note-H5-servers" options="-parameters" />
       <module name="note-admin-ribbon" options="-parameters" />
+      <module name="note-admin-servers" options="-parameters" />
       <module name="note-base-core" options="-parameters" />
       <module name="note-book-servers" options="-parameters" />
       <module name="note-config-center" options="-parameters" />

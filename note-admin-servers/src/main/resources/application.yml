@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: note-admin-servers
+  security:
+    user:
+      name: admin
+      password: admin
+server:
+  port: 7999
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9999/eureka/
+  instance:
+    metadata-map:
+      user.name: 'client'
+      user.password: 'client'
